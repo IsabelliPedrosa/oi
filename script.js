@@ -1,6 +1,6 @@
 async function buscarFilmes() {
     // acessar a rota GET do backend e exibir os filmes na tela
-    const resposta = await fetch("/movies");
+    const resposta = await fetch("https://isagabi-flix-32b.vercel.app/movies");
     const filmes = await resposta.json();
     const sectionFilmes = document.querySelector(".filmes");
 

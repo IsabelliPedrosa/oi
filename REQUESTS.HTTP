@@ -5,10 +5,10 @@ POST http://localhost:3014/add-movie
 Content-Type: application/json
 
 {
-    "titulo": "As Branquelas",
-    "genero": "Comédia",
-    "duracao": 109,
-    "classificacao": "12 anos"
+    "titulo": "Big Mac e Boder radius, o romance",
+    "genero": "Romance e Drama",
+    "duracao": 169,
+    "classificacao": "27 anos"
 }
 
 ###

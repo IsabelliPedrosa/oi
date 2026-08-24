@@ -1,0 +1,29 @@
+GET http://localhost:3014/
+
+###
+POST http://localhost:3014/add-movie
+Content-Type: application/json
+
+{
+    "titulo": "As Branquelas",
+    "genero": "Comédia",
+    "duracao": 109,
+    "classificacao": "12 anos"
+}
+
+###
+GET http://localhost:3014/movies
+
+###
+PUT http://localhost:3014/update-movie/1
+Content-Type: application/json
+
+{
+    "titulo": "Shrek 2 - Versão Estendida",
+    "genero": "Animação/Comédia",
+    "duracao": 105,
+    "classificacao": "Livre"
+}
+
+###
+DELETE http://localhost:3014/delete-movie/3
